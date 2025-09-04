@@ -1,0 +1,64 @@
+CSS Introduction:
+  CSS stand for cascading Style Sheets. cascading refers to the Style that styles/design the layout 
+  or apperance or web pages.
+
+  CSS can be used in HTML in three ways
+  1. Inline Styling.
+  2. internal Styling
+  3. External Styling
+
+1. Inline Styling: it is used to apply style to a specific  element using 'style' as attribute.
+  <element style="property:value;...">content</element> 
+
+2. internal Styling: It is used to apply styles to a specific element or multiple element using
+   selectors and style as an 'element'
+
+   <style>
+       selectors
+       {
+        property:value;......
+       }
+   </style> 
+   Inline is the powerfull goes to internal 
+
+3. Enternal Styling : it used to apply style to single/multiple element in a separate  file with 
+   .css extension and attach it to the HTML using 'link' tag
+     <link rel="stylesheet" href="path to css"/>  
+
+CSS styles of internal or External can override each other based on which comes last
+
+  h1
+  {
+    color : red !important;
+  } 
+
+  !important > Inline > internal/External
+
+Basic selectors : 
+                  To apply style to multiple element, we need to select  the element. For that 
+                  we use selectors. Most common selectors are:
+
+           1. Tag name selector: it is used to select all element of specific rag name.
+
+              tagname{
+                property:value;
+              }    
+
+            2. Class name: 'Class' is an attribute to element which is used to select multiple element
+               one element may contain multiple Class names and multiple element may contain the same class name
+                 .classname{
+                  property:value;
+                 }
+
+            3. id: id is used to identify an element uniquely. No teo element have same id and No element
+               will contain more than one id
+               #idname{
+                property:value;
+               }          
+               id > classname > tagname (priority)
+
+            4. universal selector: if you want apply style to all element in a webpage, you can 
+               universal selector (*)
+               *{
+                text-align:center;
+               }    

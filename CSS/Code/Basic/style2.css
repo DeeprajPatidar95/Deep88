@@ -1,0 +1,40 @@
+/* .myname{
+    font-size: 48px;
+    background-image: linear-gradient(to right, orange, red);
+    color: transparent;
+    background-clip: text;
+    border: 5px solid red;
+    /* border-radius: 50px; */
+    /* border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding: 50px;
+}
+
+.div1{
+    height: 300px;
+    width: 300px;
+    border: 5px solid red;
+    padding-top: 200px;
+    box-sizing: border-box; */
+/* } */ 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+     height: 100vh;
+     text-align: center;
+     padding-top: 100px;
+
+}
+
+.image{
+    height: 200px;
+    width: 200px;
+    border: 2px solid green;
+    box-sizing: border-box;
+    border-radius: 50%;
+}

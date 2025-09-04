@@ -1,0 +1,42 @@
+/* .box{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    /* position: static; */
+    /* position: relative; */
+    /* left: 100px;
+    top: 100px; */
+    /* right: 50px; */
+    /* bottom: 50px; */
+    /* left: 0px; */
+    /* bottom: 0px; */
+    /* position: ; */
+/* }  */
+
+body{
+    height: 1000vh;
+}
+
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    /* position: absolute; */
+    /* position: fixed; */
+}
+
+.box1{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position: sticky;
+    top: 100px;
+    border-radius: 50%;
+}
+
+.mainbox{
+    border: 2px solid black;
+    height: 300px;
+    width: 100px;
+}

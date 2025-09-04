@@ -1,0 +1,40 @@
+Transitions: These effects are used to change an element  from one state to another state 
+             . usually used in hover effects
+
+Transitions contains
+          Transitions-property : property name or all
+          Transitions-duration : time in seconds
+          Transitions-timing-function : ease/ease-in/ease-out/ease-in-out/linear
+
+we can achieve multiple effects using it with properties like transform,filter,opacity etc...
+
+        1) .rotateeffect : #box{
+            Transitions:all 1s ease;
+        }
+        #box{
+            transform:rotate(360deg)
+        }
+
+        2) sliding effect: #box{
+            Transitions:all 1s ease;
+        }
+        #box:hover{
+            transform:translateX(200px); or transform:translateY(200px); 
+        }
+
+        3) skew/elongation effect: #box{
+            Transitions:all 1s ease;
+        }
+        #box{
+            transform:skew(20deg);
+        }
+
+        4) zoom-in/zoom-out effect: #box{
+            Transitions:all 1s ease;
+        }
+        #box{
+            transform:scale(1.1);
+        }
+
+
+         

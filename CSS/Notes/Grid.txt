@@ -1,0 +1,29 @@
+GRID : Grid is a modern Responsive CSS layout which is used to display
+       item/element in two dimensional way (rows and columns) in a web page
+
+       Parent properties: 
+      1)   Display : Grid ---> it is used to make the container Grid and its fits 
+                            all its child item as a single columns
+    2) Grid-template-column ---> it is used to specify individual column width 
+         
+         Grid-template-columns -- 100px 50px 200px; create 3 column of respective widths
+         Grid-template-columns -- 20% 50% 30%; create 3 column of respective percentage
+         Grid-template-columns -- 1fr 2fr 3fr; divides into 3 columns of respective fraction
+         we can also specify repeat(n,x) where is n is no of times to repeatx value
+
+     3) Grid-template-rows ---> it  is used to specify each rows height similarly Grid-template-columns
+        gap -- it is used to provide gap between the item we can also specify row-gap and column-gap
+        justify-content -- it is used to move item along row 
+        align-content -- it used to move item along column
+
+        Child properties:
+                we need to divide  and understand grid as grid tracks (row line and column line)
+
+                Grid-column-start : starting column line number
+                Grid-column-end : ending column line number
+                Grid-column : grid-column-start/grid-column-end;
+                Grid- row-start : starting row line number
+                grid-row-end : ending row line number
+                grid-row : grid-row-start/grid-row-end;
+                grid-area : grid-row-start/grid-column-start/grid-row-end/grid-column-end;
+                order : by default every elements order is 0 and elements              

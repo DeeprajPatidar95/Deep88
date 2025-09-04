@@ -1,0 +1,38 @@
+#parent{
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+    display: grid;
+    /* grid-template-columns: repeat(5,20%); */
+    /* grid-template-columns: 20% 20% 20% 20% 20%; */
+    /* grid-template-columns: 1fr 2fr 2fr; */
+    grid-template-columns: repeat(3,1fr);
+    /* grid-template-rows: 100px 50px 100px;
+    justify-content: center;
+    align-content: center;
+    row-gap: 10px;
+    column-gap: 10px; */
+}
+
+.child{
+    background-color: green;
+    border: 1px solid white;
+    font-size: 24px;
+    color: white;
+}
+
+.child1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.child2{
+    grid-row-start: 2;
+    grid-row-end: 4;
+
+}
+
+.child8{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}

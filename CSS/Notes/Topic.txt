@@ -1,0 +1,15 @@
+CSS
+------ 
+      Introduction
+      Basic Selector
+      color,units, fonts
+      backgroun(image, color, gradients), text
+      Box Model(border,border-radius,margin,padding)
+      float, display
+      postion
+      flex
+      grid 
+      transitions, animation
+      Advanced CSS
+      Responsiveness (media, Queries)
+      HTML, CSS, website
